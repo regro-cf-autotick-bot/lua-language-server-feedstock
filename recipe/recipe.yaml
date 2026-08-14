@@ -1,5 +1,5 @@
 context:
-  version: "3.19.0"
+  version: "3.19.1"
 
 package:
   name: lua-language-server
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/LuaLS/lua-language-server/releases/download/${{ version }}/lua-language-server-${{ version }}-submodules.zip
-  sha256: 3a3194166bb55c3d618c64d83e793162146293561ff9676831beaff58c7f34b8
+  sha256: 9796297d5f6932c68cb75b3fa008d9194b54d08c11afe831c9664847cbc63d63
 
 build:
   number: 0
